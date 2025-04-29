@@ -31,6 +31,6 @@ Check out the live version [here](https://gracedigman.github.io/Scientific-Calcu
 If you want to run it locally:
 
 ```bash
-git clone https://github.com/yourusername/cute-calculator.git
-cd cute-calculator
+git clone https://github.com/gracedigman/Scientific-Calculator.git
+cd Scientific-Calculator
 open index.html
