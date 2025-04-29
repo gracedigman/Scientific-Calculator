@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scientific Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <div class="calculator-header">
+            <h2 class="calculator-name">Scientific Calculator</h2>
+        </div>
+        <div class="display">
+            <div class="previous-operand" id="previous-operand"></div>
+            <div class="current-operand" id="current-operand">0</div>
+        </div>
+        <div class="buttons">
+            <!-- First row -->
+            <button class="button clear" data-action="clear">AC</button>
+            <button class="button delete" data-action="delete">DEL</button>
+            <button class="button function" data-action="function" data-function="sqrt">√</button>
+            <button class="button function" data-action="function" data-function="square">x²</button>
+            <button class="button operation" data-operation="/">/</button>
+            
+            <!-- Second row -->
+            <button class="button function" data-action="function" data-function="sin">sin</button>
+            <button class="button number" data-number="7">7</button>
+            <button class="button number" data-number="8">8</button>
+            <button class="button number" data-number="9">9</button>
+            <button class="button operation" data-operation="*">×</button>
+            
+            <!-- Third row -->
+            <button class="button function" data-action="function" data-function="cos">cos</button>
+            <button class="button number" data-number="4">4</button>
+            <button class="button number" data-number="5">5</button>
+            <button class="button number" data-number="6">6</button>
+            <button class="button operation" data-operation="-">-</button>
+            
+            <!-- Fourth row -->
+            <button class="button function" data-action="function" data-function="tan">tan</button>
+            <button class="button number" data-number="1">1</button>
+            <button class="button number" data-number="2">2</button>
+            <button class="button number" data-number="3">3</button>
+            <button class="button operation" data-operation="+">+</button>
+            
+            <!-- Fifth row -->
+            <button class="button function" data-action="function" data-function="log">log</button>
+            <button class="button function" data-action="function" data-function="pi">π</button>
+            <button class="button number" data-number="0">0</button>
+            <button class="button number" data-number=".">.</button>
+            <button class="button equals" data-action="calculate">=</button>
+        </div>
+        <div class="calculator-footer">
+            ♡ Grace Digman ♡
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
